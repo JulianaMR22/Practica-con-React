@@ -1,5 +1,5 @@
 import { useState, useContext} from "react";
-import {TaskContext} from '../context/TaskContext.jsx'
+import { TaskContext } from "../context/TaskContext";
 
 function TaskForm() {
   const [title, setTitle] = useState("");
